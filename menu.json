@@ -1,0 +1,20 @@
+{
+	"items": [
+	{
+		"name": "Kindle天气台历",
+		"priority": -1,
+		"items": [
+		{
+			"name": "启动台历服务",
+			"priority": -999,
+			"action": "source ./bin/start.sh"		
+		},
+		{
+			"name": "停止台历服务",
+			"priority": -999,
+			"action": "source ./bin/stop.sh"	
+		}
+		]
+	}
+	]
+}
